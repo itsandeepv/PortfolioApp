@@ -1,0 +1,64 @@
+.about_icon span i {
+    color: #01d293;
+}
+
+
+
+.about_img{
+    /* //border: 50px 5px 50px 5px; */
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background: #171f38;
+      
+}
+.about_img img {
+    width: 100% !important;
+    border-radius: 50px 5px;
+}
+.about_imgbox {
+width: 200px !important;
+
+}
+
+
+
+
+@media only screen and (max-width: 992px) {
+
+
+.about_imgGallery{
+justify-content: center;
+margin-top: 5px;
+}
+
+
+
+.about_content h3{
+    font-size: 1.3rem;
+
+}
+ 
+.about_title {
+    margin-top: 15px;
+}
+
+.about_btn_box{
+    justify-content: center;
+    display: flex;
+margin-bottom: 1.5rem;
+}
+}
+
+
+
+
+
+@media only screen and (max-width: 762px) {
+
+
+
+    .about_imgbox{
+width: 150px !important;
+    }
+}

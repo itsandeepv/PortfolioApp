@@ -1,0 +1,13 @@
+
+
+
+
+function index() {
+  return (
+    <div>
+      this the next app file
+    </div>
+  )
+}
+
+export default index

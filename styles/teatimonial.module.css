@@ -1,0 +1,35 @@
+.testimonial_demo{
+
+    background: #171f38; 
+    padding: 2px 20px 20px 20px;
+    padding-top: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+
+.testimonial_demo img{
+    border-radius: 50px 5px ;
+}
+
+
+.testimonial_item{
+    padding: 0px 20px;
+}
+.testimonial_client{
+display: flex;
+column-gap: 1rem;
+margin-bottom: 30px;
+
+}
+
+
+
+.testimonial_client h6{
+    font-weight: 400;
+}
+
+
+.testimonial_client h6:first-child{
+    color: #01d293;
+}

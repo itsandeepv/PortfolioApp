@@ -1,0 +1,145 @@
+
+.hero{
+    padding-top: 60px !important;
+}
+
+
+.hero_content{
+    padding-top: 50px;
+}
+
+.hero_content h5{
+  color: #808dad;
+  font-weight: 400;
+}
+
+.hero_img{
+    z-index: 9;
+    position: relative;
+}
+.hero_img img{
+border-radius: 50px 5px 50px 5px;
+}
+
+
+
+.hero_skill{
+    text-align: left;
+    width: 160px;
+    padding: 10px 20px;
+    position: absolute;
+    top: 50%;
+    left: -22%;
+    border-radius: 5px;
+    background: #808dad26;
+    z-index: 10;
+
+}
+
+
+.hero_skill h6{
+background: transparent;
+color: white;
+
+
+}
+
+.hero_skill{
+    /* background: transparent; */
+}
+
+.hero_skill span i{
+color: #01d293;
+background: transparent;
+}
+
+
+.hero_experince{
+    display: flex;
+    align-items: center;
+    gap: 3;
+    width: 150px;
+
+position: relative;
+
+bottom: 44px;
+left: 72%;
+padding: 10px 20px;
+border-radius: 5px;
+background: #808dad26;
+z-index: 10;
+
+
+}
+
+.hero_experince span , .hero_experince h5  {
+    background: transparent !important;
+}
+.hero_experince h6{
+    background: transparent !important;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #01d293;
+}
+.hero_experince span i{
+    padding: 5px;
+    color: #01d293;
+    background: #808dad;
+border-radius: 5px;
+}
+
+
+
+@media only screen and (max-width: 992px) {
+
+.hero_content h2{
+font-size: 1.5rem !important;
+
+}
+
+   
+.hero_content h6{
+    font-size: 1.1rem !important;
+}
+ 
+
+
+   .hero_img{
+    width: 250px !important;
+    height: 250px !important;
+    text-align: center !important;
+    margin-top: 50px;
+   }
+
+  .hero_content{
+    padding-top: 0;
+  }
+.hero_skill{
+    padding: 10px;
+    /* width: 90px; */
+}
+
+  .hero_skill h6 , .hero_skill span i{
+    font-size: 0.7rem;
+  }
+
+
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 576px) {
+/* 
+.hero_experince{
+    display: none;
+
+} */
+.hero_skill{
+    display: none;
+}
+
+}

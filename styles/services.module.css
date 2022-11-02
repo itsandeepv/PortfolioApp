@@ -1,0 +1,24 @@
+
+
+
+.services_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2rem;
+}
+
+
+
+@media only screen and (max-width: 992px) {
+.services_container{
+
+    display: block !important;
+
+}
+.service_title{
+ font-size: 1.3rem;   
+}
+
+
+}
